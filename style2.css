@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* css variables
+ */
+ :root{
+    --navbar-height: 59px;
+ }
+ .class-container{
+  background-color: rgb(4, 4, 83);
+
+ }
+ #classes{
+  margin: 34px;
+  display: flex;
+  height: 400px;
+  margin-top: 50px;
+  /* background-color: rgb(38, 38, 231); */
+ }
+ #classes .box{
+  border: 2px solid black;
+  padding: 100px;
+  margin: 34px;
+  height: 150px;
+  width: 95%;
+  background: url('https://wallpaperaccess.com/full/1586835.jpg');
+  border-radius: 50px;
+ }
+ #classes .box p{
+  /* margin-bottom: 23px; */
+  color: white;
+ }
+ #classes img{
+  height: 300px;
+  margin-top: 34px;
+
+ }
+ #events
+ {
+  display: flex;
+ }
+ #events .box1{
+  border: 2px solid black;
+  height: 700px;
+  width: 95%;
+  margin: 23px;
+  background: url('https://c4.wallpaperflare.com/wallpaper/5/823/659/dancing-breakdance-wallpaper-preview.jpg') no-repeat center center/cover;
+
+ }
+ #events .box1 p{
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+ }
+ #events .box2{
+  border: 2px solid black;
+  height: 700px;
+  width: 95%;
+  margin: 23px;
+  background: url('https://thumbs.dreamstime.com/b/young-athletic-slim-dancer-performing-jumping-dark-background-fitness-vitality-concept-young-dancer-performing-102163562.jpg');
+ }
+ .event-container{
+  background-color: rgb(4, 4, 83);
+
+ }
+ .box1 p{
+  color: white;
+ }
+ .box1 .para{
+  text-align: center;
+  justify-content: center;
+  margin-top: 370px;
+  font-size: 20px;
+  color: white;
+ }
+ .box2 p{
+  text-align: center;
+  justify-content: center;
+  font-size: 18px;
+  color: white;
+ }
+ #contact{
+  position: relative;
+ }
+ 
+ #contact::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  /* opacity: 0.7; */
+  background-color: rgb(4, 4, 83);
+  /* background: url('https://images.pexels.com/photos/63572/pexels-photo-63572.jpeg?cs=srgb&dl=pexels-ahmed-aqtai-63572.jpg&fm=jpg'); */
+
+}
+#contact-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 34px;
+  margin: 10px;
+}
+
+
+#contact-box input,
+#contact-box textarea{
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 9px;
+  font-size: 1.1rem;
+}
+#contact-box form{
+  width: 40%;
+  color: white;
+
+}
+#contact-box label{
+  font-size: 1.3rem;
+  font-family: 'Bree Serif';
+
+}
+ .h-primary{
+    /* background-color: rgb(196, 196, 243); */
+    color: white;
+      text-align: center;
+      justify-content: center;
+      font-size: 80px;
+      padding: 12px;
+      /* height: 500px; */
+      margin-top: 330px;
+      
+  }
+  .h-secondary{
+    color: white;
+    margin-bottom: 60px;
+    
+
+/* height: 400px; */
+    font-size: 2.1rem;
+    padding: 12px; 
+    font-family: 'Baloo Bhai';
+  }
+  .center{
+    justify-content: center;
+    text-align: center;
+  }
+  .heading{
+    /* margin-top: 330px; */
+    font-size: 120px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+  }
+  .heading2{
+    justify-content: center;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+  
+
+  }
+  .heading3{
+    margin-top: 400px;
+    text-align: center;
+    justify-content: center;
+    font-size: 80px;
+    color: white;
+  }
+  .heading4{
+    text-align: center;
+    justify-content: center;
+    font-size: 34px;
+    color: white;
+  }
+  .heading5{
+    text-align: center;
+    justify-content: center;
+    font-size: 70px;
+    color: white;
+  }
+  .heading7{
+    justify-content: center;
+    text-align: center;
+    font-size: 90px;
+    color: white;
+  }
